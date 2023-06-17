@@ -1,0 +1,170 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background:linear-gradient(hsl(214, 47%, 23%) , hsl(237, 49%, 15%));
+}
+* {
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+.sec1{
+    padding: 0rem 1rem;
+    margin:auto 33rem;
+  width:55rem;
+    border-radius: 8px;
+    border: 5px solid hsl(217, 16%, 45%);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow Semi Condensed',sans-serif;
+    font-weight: 600;
+}
+.sec1 h1{
+    font-size: 2rem;
+}
+.score{
+
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 6rem;
+    height: 6rem;
+    background-color: white;
+}
+.score-heading{
+    color:hsl(229, 64%, 46%);
+    letter-spacing: 2px;
+}
+.score-val{
+    color:hsl(229, 25%, 31%);
+  
+ font-size: 3rem;
+}
+.outer-circle-rock{
+    padding:1.5rem;
+   height:13rem;
+   width:13rem;
+   border-radius: 50%;
+   background:linear-gradient(hsl(349, 71%, 52%) , hsl(349, 70%, 56%));
+ 
+   
+}
+.inner-circle{
+    
+    background-color:white;
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+}
+.rock{
+    padding: 2.2rem;
+}
+.outer-circle-paper{
+    padding:1.5rem;
+   height:13rem;
+   width:13rem;
+   border-radius: 50%;
+   background:linear-gradient(hsl(230, 89%, 62%) , hsl(230, 89%, 65%));
+  
+   margin: 1.5rem;
+}
+.paper{
+    padding:2.5rem;
+}
+.outer-circle-scissor{
+    padding:1.5rem;
+   height:13rem;
+   width:13rem;
+   border-radius: 50%;
+   background:linear-gradient( hsl(39, 89%, 49%) , hsl(40, 84%, 53%));
+   margin:3rem;
+   
+   
+}
+.scissor{
+    padding:2.5rem;   
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-sec2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1.5rem;
+}
+.triangle{
+    position:relative;
+    left:41%;
+    top:-22rem;
+    z-index: -1;
+}
+.outer-circle-paper:hover{
+    transform: scale3d(1.1,1.1,1.1);
+    transition-duration:1.5s ;
+}
+.outer-circle-rock:hover{
+    transform: scale3d(1.1,1.1,1.1);
+    transition-duration:1.5s ;
+}
+.outer-circle-scissor:hover{
+    transform: scale3d(1.1,1.1,1.1);
+    transition-duration:1.5s ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
